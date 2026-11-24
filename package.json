@@ -1,0 +1,15 @@
+{
+  "name": "weighted-score-sheet",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Combine scored criteria with explicit positive weights into a weighted mean.",
+  "license": "MIT",
+  "type": "module",
+  "exports": "./transform.mjs",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}

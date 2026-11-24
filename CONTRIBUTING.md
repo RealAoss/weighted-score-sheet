@@ -1,15 +1,11 @@
 # Contributing to Weighted Score Sheet
 
-Start with the [usage example](README.md). For a bug report, include a minimal synthetic input, the expected result and the observed result.
+Run the worked example in the README. For a change, include a synthetic input and its expected result.
 
-## Run the checks
-
-Use Python 3.12 or newer from the repository root.
+## Checks
 
 ```sh
-python -m pip install playwright
-python -m playwright install chromium
-python tests/check.py
+node --test
 ```
 
-Add a regression case to the included check when changing an input format, calculation, or output.
+The test suite exercises the node.js command-line tool.
